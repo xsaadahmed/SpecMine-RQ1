@@ -1,0 +1,11 @@
+from pathlib import Path
+p=Path('rq1_analysis/content_test_detection/full_cohort.py');s=p.read_text();s=s.replace("p.add_argument('--live',action='store_true');", "p.add_argument('--live',action='store_true');p.add_argument('--deterministic-only',action='store_true',help='Never dispatch paid model calls; cached validated decisions remain usable');")
+s=s.replace("if args.live and not os.environ", "if args.live and not args.deterministic_only and not os.environ")
+s=s.replace("dry_run=not args.live,budget=engine.ScalingBudget", "dry_run=not args.live or args.deterministic_only,budget=engine.ScalingBudget")
+s=s.replace("circuit_path=circuit if args.live else None)", "circuit_path=circuit if args.live and not args.deterministic_only else None,fallback_on_quality=True)")
+s=s.replace("needs_processing(path,args.live,args.retry_unknown)", "needs_processing(path,args.live or args.deterministic_only,args.retry_unknown)")
+s=s.replace("if args.live and not args.retry_unknown and tuple", "if (args.live or args.deterministic_only) and not args.retry_unknown and tuple")
+s=s.replace("            d,a,q=engine.run_rows", "            before_pr_calls=len(resolver.budget.state['attempts'])\n            d,a,q=engine.run_rows")
+s=s.replace("            d.to_csv(path,index=False)", "            d['processing_mode']='deterministic_only' if args.deterministic_only else 'quality_fallback' if resolver.model_disabled else 'hybrid'\n            d['new_model_requests']=len(resolver.budget.state['attempts'])-before_pr_calls\n            d.to_csv(path,index=False)")
+s=s.replace("        stats['verification_states']=", "        stats['model_quality_fallback']=resolver.model_disabled\n        stats['deterministic_only']=args.deterministic_only\n        stats['verification_states']=")
+p.write_text(s)

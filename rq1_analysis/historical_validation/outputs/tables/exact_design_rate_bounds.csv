@@ -1,0 +1,7 @@
+tool,feature,unexposed_rate_low,unexposed_rate_high,exposed_rate_low,exposed_rate_high,difference_low,difference_high,simultaneous_confidence,family_count,target
+all,has_acceptance_criteria,0.08087291399229782,0.9806529625151149,0.004411764705882353,0.9940436796823295,-0.9762411978092326,0.9131707656900317,0.95,64,retrievable/compatible domain in the frozen two-tool PR frame
+all,has_edge_cases,0.05807743658210948,0.9807930607187113,0.03214285714285714,0.9809038828771484,-0.9486502035758542,0.9228264462950388,0.95,64,retrievable/compatible domain in the frozen two-tool PR frame
+openspec,has_acceptance_criteria,0.07692307692307693,0.984984984984985,0.002325581395348837,0.9956188389923329,-0.9826594035896361,0.918695762069256,0.95,64,retrievable/compatible domain in the frozen two-tool PR frame
+openspec,has_edge_cases,0.07492507492507493,0.982982982982983,0.004651162790697674,0.9978094194961665,-0.9783318201922854,0.9228843445710916,0.95,64,retrievable/compatible domain in the frozen two-tool PR frame
+speckit,has_acceptance_criteria,0.08797127468581688,0.9740458015267176,0.008,0.9916387959866221,-0.9660458015267176,0.9036675213008052,0.95,64,retrievable/compatible domain in the frozen two-tool PR frame
+speckit,has_edge_cases,0.02414486921529175,0.9772357723577236,0.07592592592592592,0.9574468085106383,-0.9013098464317977,0.9333019392953465,0.95,64,retrievable/compatible domain in the frozen two-tool PR frame

@@ -1,0 +1,9 @@
+stratum,frame_n,sample_n
+openspec|pred=0|uncertain=0,411,8
+openspec|pred=0|uncertain=1,12,8
+openspec|pred=1|uncertain=0,70,8
+openspec|pred=1|uncertain=1,5,5
+speckit|pred=0|uncertain=0,967,8
+speckit|pred=0|uncertain=1,41,8
+speckit|pred=1|uncertain=0,103,8
+speckit|pred=1|uncertain=1,3,3

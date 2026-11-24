@@ -1,0 +1,13 @@
+tool,feature,feature_present,n_baseline_prs,baseline_test_added_rate,historical_version_verified
+openspec,has_acceptance_criteria,0,1899,0.5129015271195366,False
+openspec,has_acceptance_criteria,1,16,0.75,False
+openspec,has_edge_cases,0,1893,0.5139989434759641,False
+openspec,has_edge_cases,1,22,0.5909090909090909,False
+openspec,has_testing_requirement,0,1757,0.5105293113261241,False
+openspec,has_testing_requirement,1,158,0.5632911392405063,False
+speckit,has_acceptance_criteria,0,1104,0.5606884057971014,False
+speckit,has_acceptance_criteria,1,51,0.45098039215686275,False
+speckit,has_edge_cases,0,295,0.423728813559322,False
+speckit,has_edge_cases,1,860,0.6011627906976744,False
+speckit,has_testing_requirement,0,1006,0.5278330019880716,False
+speckit,has_testing_requirement,1,149,0.7449664429530202,False

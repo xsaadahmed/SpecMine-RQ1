@@ -1,0 +1,13 @@
+tool,feature,present,n,positive,rate
+openspec,has_acceptance_criteria,0.0,1118,591,0.5286225402504472
+openspec,has_acceptance_criteria,1.0,15,13,0.8666666666666667
+openspec,has_edge_cases,0.0,1111,590,0.5310531053105311
+openspec,has_edge_cases,1.0,22,14,0.6363636363636364
+openspec,has_testing_requirement,0.0,1039,550,0.5293551491819056
+openspec,has_testing_requirement,1.0,94,54,0.574468085106383
+speckit,has_acceptance_criteria,0.0,616,345,0.560064935064935
+speckit,has_acceptance_criteria,1.0,41,21,0.5121951219512195
+speckit,has_edge_cases,0.0,193,97,0.5025906735751295
+speckit,has_edge_cases,1.0,464,269,0.5797413793103449
+speckit,has_testing_requirement,0.0,572,304,0.5314685314685315
+speckit,has_testing_requirement,1.0,85,62,0.7294117647058823

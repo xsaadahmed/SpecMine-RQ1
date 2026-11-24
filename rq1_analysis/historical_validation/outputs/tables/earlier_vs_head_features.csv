@@ -1,0 +1,10 @@
+tool,feature,paired_n,earlier_present,head_present,label_mismatches
+all,has_acceptance_criteria,11,4,4,0
+all,has_edge_cases,11,4,4,0
+all,has_testing_requirement,11,1,1,0
+openspec,has_acceptance_criteria,5,1,1,0
+openspec,has_edge_cases,5,1,1,0
+openspec,has_testing_requirement,5,1,1,0
+speckit,has_acceptance_criteria,6,3,3,0
+speckit,has_edge_cases,6,3,3,0
+speckit,has_testing_requirement,6,0,0,0

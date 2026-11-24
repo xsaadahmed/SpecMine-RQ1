@@ -1,0 +1,4 @@
+feature,absent_total,absent_observed,absent_positive,absent_negative,absent_missing,absent_rate,present_total,present_observed,present_positive,present_negative,present_missing,present_rate
+Acceptance criteria,3064,2994,1640,1354,70,0.5477621910487642,122,120,83,37,2,0.6916666666666667
+Edge cases,2295,2244,1184,1060,51,0.5276292335115864,891,870,539,331,21,0.6195402298850575
+Testing directives,2863,2798,1508,1290,65,0.5389563974267334,323,316,215,101,7,0.680379746835443
